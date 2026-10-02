@@ -1,0 +1,138 @@
+{
+  "user": {
+    "id": 1,
+    "name": "Piyush Nakrani",
+    "role": "employee",
+    "title": "Frontend Developer",
+    "email": "piyush@example.com"
+  },
+  "employees": [
+    {
+      "id": 1,
+      "name": "Piyush Nakrani",
+      "title": "Frontend Developer",
+      "department": "Development",
+      "email": "piyush@example.com"
+    },
+    {
+      "id": 2,
+      "name": "Rahul Patel",
+      "title": "Backend Developer",
+      "department": "Development",
+      "email": "rahul@example.com"
+    },
+    {
+      "id": 3,
+      "name": "Neha Sharma",
+      "title": "UI/UX Designer",
+      "department": "Design",
+      "email": "neha@example.com"
+    },
+    {
+      "id": 4,
+      "name": "Amit Singh",
+      "title": "QA Engineer",
+      "department": "QA",
+      "email": "amit@example.com"
+    }
+  ],
+  "balances": [
+    {
+      "type": "Casual Leave",
+      "code": "CL",
+      "used": 5,
+      "total": 7,
+      "color": "blue"
+    },
+    {
+      "type": "Sick Leave",
+      "code": "SL",
+      "used": 2,
+      "total": 5,
+      "color": "green"
+    },
+    {
+      "type": "Earned Leave",
+      "code": "EL",
+      "used": 7,
+      "total": 10,
+      "color": "purple"
+    },
+    {
+      "type": "Privilege Leave",
+      "code": "PL",
+      "used": 3,
+      "total": 5,
+      "color": "orange"
+    }
+  ],
+  "leaves": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "employee": "Piyush Nakrani",
+      "title": "Frontend Developer",
+      "type": "Casual Leave",
+      "start": "2025-09-12",
+      "end": "2025-09-12",
+      "reason": "Personal work",
+      "status": "Pending",
+      "appliedOn": "2025-09-10"
+    },
+    {
+      "id": 2,
+      "employeeId": 2,
+      "employee": "Rahul Patel",
+      "title": "Backend Developer",
+      "type": "Sick Leave",
+      "start": "2025-09-05",
+      "end": "2025-09-06",
+      "reason": "Medical rest",
+      "status": "Approved",
+      "appliedOn": "2025-09-02"
+    },
+    {
+      "id": 3,
+      "employeeId": 3,
+      "employee": "Neha Sharma",
+      "title": "UI/UX Designer",
+      "type": "Earned Leave",
+      "start": "2025-08-20",
+      "end": "2025-08-22",
+      "reason": "Family trip",
+      "status": "Rejected",
+      "appliedOn": "2025-08-18"
+    },
+    {
+      "id": 4,
+      "employeeId": 4,
+      "employee": "Amit Singh",
+      "title": "QA Engineer",
+      "type": "Casual Leave",
+      "start": "2025-08-15",
+      "end": "2025-08-15",
+      "reason": "Personal work",
+      "status": "Approved",
+      "appliedOn": "2025-08-14"
+    },
+    {
+      "id": 5,
+      "employeeId": 1,
+      "employee": "Piyush Nakrani",
+      "title": "Frontend Developer",
+      "type": "Sick Leave",
+      "start": "2025-07-10",
+      "end": "2025-07-11",
+      "reason": "Fever",
+      "status": "Approved",
+      "appliedOn": "2025-07-08"
+    }
+  ],
+  "departments": [
+    { "name": "Development", "count": 5 },
+    { "name": "Design", "count": 2 },
+    { "name": "QA", "count": 2 },
+    { "name": "HR", "count": 1 },
+    { "name": "Finance", "count": 1 }
+  ]
+}
